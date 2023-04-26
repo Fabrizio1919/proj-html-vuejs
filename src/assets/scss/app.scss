@@ -1,0 +1,29 @@
+@use '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+header {
+    background-color: white;
+    .logo img {
+        width: 140px;
+    }
+    svg {
+        width: 25px;
+        margin-right: 10px;
+        color:#171520 ;
+    }
+
+    li a {
+        color:#171520 ;
+    }
+
+    .form-control {
+        background-color: #f4f4f4 ;
+    } 
+
+}
+
+main {
+    .jumbotron {
+        max-width: 100%;
+    }
+}
