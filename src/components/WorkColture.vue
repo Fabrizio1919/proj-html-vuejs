@@ -17,6 +17,7 @@ export default {
                                 enrollment procedure, and, <br> registration deadline, We're opening new classes every <br>
                                 beginning of each month.</p>
                             <p>Have questions? <strong class="coulture2">Get Free Guide &#129046;</strong></p>
+                            <img class="shape" src="../assets/img/maxcoach-shape-07-100x100.png" alt="">
                         </div>
                     </div>
                 </div>

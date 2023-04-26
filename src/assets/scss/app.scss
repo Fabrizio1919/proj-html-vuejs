@@ -46,6 +46,8 @@ main {
         padding: 10px 25px;
         font-weight: 700;
         font-size: 10px;
+        position: absolute;
+        left: 28%;
     }
 
     .commence {
@@ -57,30 +59,33 @@ main {
         font-size: 50px;
     }
 
-   
+
 }
 
 .textWork {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 20px;
 }
+
 h6 {
     margin-right: 186px;
     color: #b1b1b0
 }
 
 .workColture {
-margin-top: 5%;
+    margin-top: 5%;
 }
 
 .coulture {
     font-weight: 400;
-    color:#2fad97;
+    color: #2fad97;
 }
+
 .coulture2 {
     font-weight: 700;
-    color:#2fad97;
+    color: #2fad97;
     text-decoration: underline lightgrey;
 }
 
@@ -101,14 +106,15 @@ margin-top: 5%;
 }
 
 .numberDate {
-   text-align: center;
-   color: #2fad97;
-   font-weight: 900;
-   font-size: 2rem;
-   padding: 50px;
-   margin: 0px 10rem;
+    text-align: center;
+    color: #2fad97;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 50px;
+    margin: 0px 10rem;
 
 }
+
 .dateCoulture {
     font-weight: 700;
     color: #b1b1b0;
@@ -119,4 +125,46 @@ margin-top: 5%;
     position: absolute;
     right: 19%;
     bottom: -56%;
+}
+
+.shape {
+    position: absolute;
+    right: 20%;
+    top: 90%;
+}
+
+.imgTell {
+    width: 100%;
+    margin: 0px 109px;
+    border-radius: 5px;
+}
+
+.youtube {
+    position: absolute;
+    left: 32%;
+    bottom: -907px;
+}
+
+.titleUpgrade {
+    margin-right: 297px;
+    padding: 19px 0px;
+}
+
+.titleOn h6 {
+    color: #b1b1b0;
+    margin: auto;
+}
+
+.carosel .row {
+    justify-content: center;
+    gap: 50px;
+}
+.item {
+    color:#b1b1b0;
+    display: flex;
+    gap: 15px;
+}
+.item svg {
+    width: 10px;
+    fill: #b1b1b0;
 }
