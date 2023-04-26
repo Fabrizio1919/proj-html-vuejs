@@ -71,7 +71,7 @@ h6 {
 }
 
 .workColture {
-margin-top: 10%;
+margin-top: 5%;
 }
 
 .coulture {
@@ -104,10 +104,19 @@ margin-top: 10%;
    text-align: center;
    color: #2fad97;
    font-weight: 900;
-   font-size: 2rem
+   font-size: 2rem;
+   padding: 50px;
+   margin: 0px 10rem;
+
 }
 .dateCoulture {
     font-weight: 700;
     color: #b1b1b0;
     font-size: 15px;
+}
+
+.circle {
+    position: absolute;
+    right: 19%;
+    bottom: -56%;
 }
