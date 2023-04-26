@@ -3,27 +3,111 @@
 
 header {
     background-color: white;
+
     .logo img {
         width: 140px;
     }
+
     svg {
         width: 25px;
         margin-right: 10px;
-        color:#171520 ;
+        color: #171520;
     }
 
     li a {
-        color:#171520 ;
+        color: #171520;
     }
 
     .form-control {
-        background-color: #f4f4f4 ;
-    } 
+        background-color: #f4f4f4;
+    }
 
 }
 
 main {
-    .jumbotron {
+    .jumbotron img {
         max-width: 100%;
+        position: relative;
     }
+
+    .textJumbo {
+        position: absolute;
+        top: 35%;
+        left: 32%;
+        text-align: center;
+        color: white;
+    }
+
+    .buttonJumbo {
+        background-color: white;
+        border: none;
+        color: #2fad97;
+        border-radius: 5%;
+        padding: 10px 25px;
+        font-weight: 700;
+        font-size: 10px;
+    }
+
+    .commence {
+        font-weight: 600;
+    }
+
+    .program {
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+   
+}
+
+.textWork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h6 {
+    margin-right: 186px;
+    color: #b1b1b0
+}
+
+.workColture {
+margin-top: 10%;
+}
+
+.coulture {
+    font-weight: 400;
+    color:#2fad97;
+}
+.coulture2 {
+    font-weight: 700;
+    color:#2fad97;
+    text-decoration: underline lightgrey;
+}
+
+.imgPositionTop {
+    position: absolute;
+    top: 100%;
+    border-radius: 5px;
+    width: 33%;
+
+}
+
+.imgPosition {
+    position: absolute;
+    right: 14%;
+    top: 90%;
+    border-radius: 5px;
+    width: 10%;
+}
+
+.numberDate {
+   text-align: center;
+   color: #2fad97;
+   font-weight: 900;
+   font-size: 2rem
+}
+.dateCoulture {
+    font-weight: 700;
+    color: #b1b1b0;
+    font-size: 15px;
 }

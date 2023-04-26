@@ -1,19 +1,22 @@
 <script>
 import AppHeader from "./components/AppHeader.vue"
+import AppMain from "./components/AppMain.vue"
 export default {
   components: {
-    AppHeader
+    AppHeader,
+    AppMain
   }
 }
 </script>
 
 <template>
   <AppHeader></AppHeader>
+  <AppMain></AppMain>
+
+ 
 
   <main>
-    <div class="jumbotron">
-      <img src="./assets/img/home-3-hero-bg.jpg" alt="">
-    </div>
+   
   </main>
  
 </template>
