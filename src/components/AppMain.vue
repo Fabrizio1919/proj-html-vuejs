@@ -4,8 +4,10 @@ import WorkColture from '../components/WorkColture.vue';
 import UpgradeSkills from '../components/UpgradeSkills.vue';
 import OnlineCourses from '../components/OnlineCourses.vue'
 import PeopleHearts from './PeopleHearts.vue';
-import GuideFree from '../components/GuideFree.vue'
-import OurBlogs from '../components/OurBlogs.vue'
+import GuideFree from '../components/GuideFree.vue';
+import OurBlogs from '../components/OurBlogs.vue';
+import EnterEmail from '../components/EnterEmail.vue'
+
 
 export default {
     components: {
@@ -15,7 +17,8 @@ export default {
         OnlineCourses,
         PeopleHearts,
         GuideFree,
-        OurBlogs
+        OurBlogs,
+        EnterEmail
     },
     name: "AppMain"
 }
@@ -30,6 +33,7 @@ export default {
     <PeopleHearts></PeopleHearts>
     <GuideFree></GuideFree>
     <OurBlogs></OurBlogs>
+    <EnterEmail></EnterEmail>
     
     
 </template>
