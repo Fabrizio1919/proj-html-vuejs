@@ -267,3 +267,53 @@ h6 {
     border: none;
     padding: 5px;
 }
+
+
+footer {
+    background-color: #171520;
+}
+
+    li  {
+        list-style: none;
+        font-size: 13px;
+    }
+    li a {
+        list-style: none;
+        color: gray;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        text-decoration: underline;
+        color: white;
+        
+    }
+    
+    button {
+        background-color: #212121;
+        color: gray;
+        border: 1px solid gray;
+    }
+    button:hover {
+        color: white;
+    }
+    
+    .itemFtw {
+        display: flex;
+        gap: 20px;
+        margin-left: 35px;
+    }
+
+    .itemFtw a {
+        width: 20px;
+        height: 20px;
+    }
+
+    .itemFtw svg {
+        fill: lightgrey;
+        width: 20px;
+        height: 20px;
+    }
+    
+    
+    
