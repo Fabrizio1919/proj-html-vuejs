@@ -159,11 +159,13 @@ h6 {
     justify-content: center;
     gap: 50px;
 }
+
 .item {
-    color:#b1b1b0;
+    color: #b1b1b0;
     display: flex;
     gap: 15px;
 }
+
 .item svg {
     width: 10px;
     fill: #b1b1b0;
@@ -178,48 +180,76 @@ h6 {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  .titleTestimonial h2 {
-    font-size: 17px;
-  }
+}
 
-  .imgTestimonial img {
+.titleTestimonial h2 {
+    font-size: 17px;
+}
+
+.imgTestimonial img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-  }
+}
 
-  .nameTestimonial h5 {
+.nameTestimonial h5 {
     font-size: 15px;
-  }
-  .nameTestimonial p {
+}
+
+.nameTestimonial p {
     font-size: 10px;
     color: #b1b1b0;
-  }
+}
 
-  .titleCover h3 {
+.titleCover h3 {
     font-size: 17px;
-  }
+}
 
-  .coverTestimonial img {
+.coverTestimonial img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-  }
+}
 
-  .coverTestimonial {
+.coverTestimonial {
     z-index: -1;
     position: absolute;
     opacity: 0.4;
     background-color: #eeecec;
-  }
-  .coverTestimonialImg {
-    margin-top: 200px;
-  }
+}
 
-  .testimonial {
+.coverTestimonialImg {
+    margin-top: 200px;
+}
+
+.testimonial {
     position: absolute;
     top: 74px;
     left: -19px;
     border: 1px solid black;
-  }
+}
+
+.buttonGuide {
+    color: white;
+    border: none;
+    background-color: #2fad97;
+    border-radius: 5%;
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 10px;
+}
+.titlePeople {
+    margin-right: 186px;
+    padding: 19px 0px;
+}
+
+.imgPeople {
+    width: 75%;
+    margin: -38px 150px;
+    border-radius: 5px;
+}
+
+.titleArtist {
+    color:#b1b1b0 ;
+    font-size: 1rem
+}
