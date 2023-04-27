@@ -3,13 +3,15 @@ import Jumbotron from '../components/Jumbotron.vue';
 import WorkColture from '../components/WorkColture.vue';
 import UpgradeSkills from '../components/UpgradeSkills.vue';
 import OnlineCourses from '../components/OnlineCourses.vue'
+import PeopleHearts from './PeopleHearts.vue';
 
 export default {
     components: {
         Jumbotron,
         WorkColture,
         UpgradeSkills,
-        OnlineCourses
+        OnlineCourses,
+        PeopleHearts
     },
     name: "AppMain"
 }
@@ -21,6 +23,7 @@ export default {
     <WorkColture></WorkColture>
     <UpgradeSkills></UpgradeSkills>
     <OnlineCourses></OnlineCourses>
+    <PeopleHearts></PeopleHearts>
     
     
 </template>

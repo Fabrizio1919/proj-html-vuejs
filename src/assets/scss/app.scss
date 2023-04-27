@@ -168,3 +168,58 @@ h6 {
     width: 10px;
     fill: #b1b1b0;
 }
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .titleTestimonial h2 {
+    font-size: 17px;
+  }
+
+  .imgTestimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .nameTestimonial h5 {
+    font-size: 15px;
+  }
+  .nameTestimonial p {
+    font-size: 10px;
+    color: #b1b1b0;
+  }
+
+  .titleCover h3 {
+    font-size: 17px;
+  }
+
+  .coverTestimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .coverTestimonial {
+    z-index: -1;
+    position: absolute;
+    opacity: 0.4;
+    background-color: #eeecec;
+  }
+  .coverTestimonialImg {
+    margin-top: 200px;
+  }
+
+  .testimonial {
+    position: absolute;
+    top: 74px;
+    left: -19px;
+    border: 1px solid black;
+  }
