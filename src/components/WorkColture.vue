@@ -1,6 +1,8 @@
 <script>
 export default {
-    name: 'WorkColture'
+    name: 'WorkColture',
+   
+    
 }
 </script>
 
@@ -34,7 +36,7 @@ export default {
                     <div class="row">
                         <div class="col">
                             <div class="dateBody">
-                                <p> 129+</p>
+                                <p>129+</p>
                                 <h5><strong class="dateCoulture">ENROLLED LEARNERES</strong></h5>
                             </div>
                         </div>

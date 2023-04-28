@@ -5,7 +5,8 @@ export default {
 </script>
 
 <template>
-    <div class="titleOn text-center py-5">
+    <div class="ourBlogs">
+        <div class="titleOn text-center py-5">
         <h6>READ FOR MORE JOYMENT</h6>
         <h1>Latest From <strong class="coulture">Our Blogs</strong></h1>
     </div>
@@ -78,6 +79,8 @@ export default {
             </div>
         </div>
     </div>
+    </div>
+ 
 </template>
 
 
