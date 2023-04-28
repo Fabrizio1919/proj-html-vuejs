@@ -91,18 +91,18 @@ h6 {
 
 .imgPositionTop {
     position: absolute;
-    top: 100%;
+    top: 4%;
     border-radius: 5px;
-    width: 33%;
+    width: 69%;
 
 }
 
 .imgPosition {
     position: absolute;
-    right: 14%;
-    top: 90%;
+    right: 20%;
+    top: -19%;
     border-radius: 5px;
-    width: 10%;
+    width: 25%;
 }
 
 .numberDate {
@@ -123,14 +123,15 @@ h6 {
 
 .circle {
     position: absolute;
-    right: 19%;
-    bottom: -56%;
+    right: 34%;
+    bottom: -30%;
 }
 
 .shape {
     position: absolute;
-    right: 20%;
-    top: 90%;
+    right: 22%;
+    top: 132%;
+    z-index: -1;
 }
 
 .imgTell {
@@ -141,8 +142,8 @@ h6 {
 
 .youtube {
     position: absolute;
-    left: 32%;
-    bottom: -907px;
+    left: 59%;
+    bottom: 39%;
 }
 
 .titleUpgrade {
@@ -180,6 +181,9 @@ h6 {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+}
+.dot:hover {
+    background-color: gray;
 }
 
 .titleTestimonial h2 {

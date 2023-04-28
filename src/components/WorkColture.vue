@@ -21,7 +21,7 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col position-relative">
                     <img class="imgPositionTop"
                         src="../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
                     <img class="imgPosition" src="../assets/img/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg"

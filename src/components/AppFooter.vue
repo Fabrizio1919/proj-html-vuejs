@@ -28,7 +28,10 @@ export default {
                         </div>
                         </div>
                     </div>
-                    <div class="mx-5">
+                    <div
+                    
+                    
+                    class="mx-5">
                         <ul>
                             <li><h5 class="text-white">Explore</h5></li>
                             <li><a href="#">Start here</a></li>

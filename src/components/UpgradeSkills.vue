@@ -9,7 +9,7 @@ export default {
     <div class="workColture">
         <div class="container">
             <div class="row py-5">
-                <div class="col">
+                <div class="col position-relative">
                     <div class="container">
                         <img class="imgTell" src="../assets/img/stock-full-hd-11-670x450.jpg" alt="">
                         <img class="youtube" src="../assets/img/icon-youtube-play.png" alt="">

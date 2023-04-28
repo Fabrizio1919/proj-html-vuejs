@@ -3,7 +3,7 @@ import Jumbotron from '../components/Jumbotron.vue';
 import WorkColture from '../components/WorkColture.vue';
 import UpgradeSkills from '../components/UpgradeSkills.vue';
 import OnlineCourses from '../components/OnlineCourses.vue'
-import PeopleHearts from './PeopleHearts.vue';
+import PeopleHearts from '../components/PeopleHearts.vue';
 import GuideFree from '../components/GuideFree.vue';
 import OurBlogs from '../components/OurBlogs.vue';
 import EnterEmail from '../components/EnterEmail.vue'
